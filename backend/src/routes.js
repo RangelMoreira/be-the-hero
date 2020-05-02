@@ -28,6 +28,6 @@ routes.post('/incidents', incidentsController.create);
 routes.get('/incidents', incidentsController.index);
 
 //deletando casos
-routes.get('/incidents/:id', incidentsController.delete);
+routes.delete('/incidents/:id', incidentsController.delete);
 
 module.exports = routes;
