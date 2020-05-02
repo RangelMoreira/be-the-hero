@@ -1,6 +1,6 @@
 const express = require('express');
 
-const ProfileController = require('./controllers/incidentController');
+const ProfileController = require('./controllers/ProfileController');
 const ongController = require('./controllers/OngController');
 const incidentsController = require('./controllers/incidentController');
 const sessionController = require('./controllers/SessionController');
